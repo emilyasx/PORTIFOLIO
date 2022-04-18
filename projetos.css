@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #1e1e2A;
+    background-color: rgb(250, 250, 250);
+}
+
+.titulo {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.projetos-principal {
+    background-color: rgb(255, 252, 249);
+}
+
+.projetos {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.projetos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.0%;
+    box-sizing: border-box;
+    border: 2px solid #6871e6;
+    box-shadow:  inset 0 0 30px #6871e6;
+    border-radius: 10px;
+}
+.projetos h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.veja {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ 
+.bg-footer{
+    text-align: center;
+    background-color: #000000;
+    font-size: 16px;
+    color: rgb(76, 0, 255);
+
+}
+
+@media screen and (max-width: 480px) {
+    .imagem-projetos {
+        width: 50px;
+        height: 50px;
+    }
+
+    .projetos li {
+        font-size: 10px;
+        text-align: center;
+        margin: 0 5%;
+        padding: 10px 5px;
+        margin: 0 5%;
+        width: 30%;
+        padding: 5px;
+
+    }
+    .projetos h2 {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0;
+    }
+}
