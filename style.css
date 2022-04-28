@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     color: #1e1e2A;
-   
+
 }
 
 /*HEADER */
@@ -14,58 +14,63 @@ body {
 header {
     background-color: rgb(0, 0, 0);
     color: #ffffff;
+    height: 150px;
 }
 
-´.header2 {
-    background-color: white;
-    width: 980px;
+.header2 {
+    background-color: transparent;
+    width: 100%;
     margin: 0 auto;
-    border-bottom: 3px solid rgb(226, 226, 226);
+    padding: 0px;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.caixa {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 }
 
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #2A7AE4;
+}
+
+.menu ul li a:hover {
+    color: #2A7AE4;
 }
 
 .menu ul li a {
-    color: #8b8b8b;
+    color: #c4c4c4;
     text-decoration: none;
     font-size: 18px;
 }
 
 .menu {
-    width: 70%;
-    float: left;
+    width: 100%;
+    float: center;
+    padding: 2px;
 }
 
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-    color: #ffffff;
-
-
-}
-
-nav a {
-    text-transform: uppercase;
-    color: rgb(248, 248, 250);
-    font-weight: bold;
-    font-size: 24px;
-    text-decoration: none;
-
+.menu-urls {
+    border-bottom: 3px solid rgb(226, 226, 226);
+    height: 70px;
 }
 
 .header-container {
-   
+
     background-color: rgb(0, 0, 0);
     background-position: center;
     background-size: contain;
@@ -76,14 +81,16 @@ nav a {
     box-sizing: border-box;
     padding: 0 112px;
     position: relative;
- 
+
 }
+
 .header__intro__links {
-    
+
     list-style: none;
     justify-content: space-between;
     font-size: .8em;
 }
+
 .header__intro__links__link {
     text-decoration: underline;
     text-decoration-style: dotted;
@@ -93,13 +100,13 @@ nav a {
 a:hover {
     background-color: #9ea9fa;
 
-    
+
 }
+
 main {
-   
-    
+
+
     width: 100%;
-    background-color: black;
 }
 
 h1 {
@@ -108,7 +115,8 @@ h1 {
     letter-spacing: 2px;
     line-height: 2;
     font-weight: bold;
-    text-align: center;}
+    text-align: center;
+}
 
 h2 {
     text-transform: uppercase;
@@ -119,6 +127,7 @@ h2 {
     text-align: center;
 
 }
+
 h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -127,6 +136,7 @@ h3 {
     font-weight: bold;
     text-align: center;
 }
+
 .principal {
     font-size: 50px;
     text-transform: uppercase;
@@ -134,12 +144,14 @@ h3 {
     text-align: center;
     padding: 10px;
 }
-.sobre{
+
+.sobre {
     float: left;
     width: 100%;
     background-color: #e4edf7;
 
 }
+
 .sobre-mim {
     width: 200px;
     height: 200px;
@@ -150,22 +162,24 @@ h3 {
     right: 50;
 
 }
+
 section {
-    background-color: #fffff2 ;
+    background-color: #fffff2;
 }
 
-.subtitulo { 
+.subtitulo {
     line-height: 1;
     font-size: 20px;
 
 }
 
-p{
+p {
     padding: 5px;
     font-size: 1em;
     padding-bottom: 15px;
     line-height: 1.4;
 }
+
 .hobbies {
     padding: 20px;
     clear: left;
@@ -175,63 +189,73 @@ p{
 .hobbies li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 20%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #8178ff;
     border-radius: 10px;
-    box-shadow: inset 0 0 20px #8178ff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
 }
 
 .soft-skills {
     line-height: 1;
-    padding:15px ;
+    padding: 15px;
 }
+
 .soft-skills li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 20%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #8178ff;
     border-radius: 10px;
-    box-shadow: inset 0 0 20px #8178ff;
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
 }
 
-.formação li {
+
+.formações {
+    background-color: transparent;
     display: inline-block;
-    text-align: center;
-    width: 10%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    box-sizing: border-box;
-    border: 2px solid #8178ff;
-    border-radius: 10px;
-    box-shadow: inset 0 0 30px #8178ff;
-    
-
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
 }
-.imagem {
-    width: 100px;
+
+.formação {
+    overflow: hidden;
+    text-align: center;
+    width: 160px;
     height: 100px;
+    flex-direction: column;
+    vertical-align: top;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.formação div {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.formação1 {
+    width: 40px;
+    height: 70px;
 }
 
 .paragrafo {
     font-size: 12px;
 }
 
-.footer{
+.footer {
     text-align: center;
     background-color: #000000;
     font-size: 16px;
     color: rgb(76, 0, 255);
-	bottom:0;
-	width:100%;
+    bottom: 0;
+    width: 100%;
     height: 100%;
 
 }
@@ -241,32 +265,39 @@ p{
     .principal {
         font-size: 20px;
     }
+
     .logo {
         width: 100px;
         height: 100px;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 16px;
         padding: 8px;
 
     }
+
     .sobre-mim {
         width: 30%;
         height: 30%;
     }
-    .soft-skills li, .hobbies li {
+
+    .soft-skills li,
+    .hobbies li {
         font-size: 10px;
         text-align: center;
         margin: 0 5%;
         width: 50%;
         padding: 10px;
-       
+
     }
+
     .imagem {
         width: 50px;
         height: 50px;
-        
+
     }
+
     .formação li {
         margin: 0 5%;
         text-align: center;
@@ -275,19 +306,57 @@ p{
         padding: 5px;
 
     }
+
     .header-container {
         padding: 0;
     }
-    nav {
-        position: static;
-        right: 50;
-    }
+
     nav a {
         font-size: 10px;
-        margin: 0 0 0 10px;
+        margin: 0 0 0 px;
         text-align: right;
     }
+
     .paragrafo {
         font-size: 5px;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        color: #8b8b8b;
+        font-weight: bold;
+        margin-left: 5px;
+        height: 15px;
+    }
+
+    .menu ul li:hover {
+        border-bottom: 3px solid #2A7AE4;
+    }
+
+    .menu ul li a:hover {
+        color: #2A7AE4;
+    }
+
+    .menu ul li a {
+        color: #c4c4c4;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .menu {
+        width: 50%;
+        float: center;
+        padding: 2px;
+    }
+
+    .menu-urls {
+        border-bottom: 3px solid rgb(226, 226, 226);
+        height: 70px;
+    }
+
+    .header2 {
+        background-color: transparent;
+
+
     }
 }

@@ -1,97 +1,105 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Contato,</title>
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="contato.css">
-	</head>
-	<body>
-		<header class="header-container">
-		 
-			<header class="header-container">
-			
-				<div class="caixa">
-					<img class="logo" src="./img/logo_emily.png" width="200px" height="200px">
-			
-				</div>
-			</header>
-			
-			<main>
-				<div class="header2">
-					<nav class="menu">
-						<ul>
-							<li>
-								<a href="https://github.com/emilyasx/" class="header__intro__links__link" target="_blank">Github</a>
-							</li>
-							<li>
-								<a href="tps://www.linkedin.com/in/emily-carvalho-2aa57018b/" class="header__intro__links__link"
-									target="_blank">Linkedin </a>
-							</li>
-			
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-			
-							<li>
-								<a href="projetos.html">projetos</a>
-							</li>
-							<li>
-								<a href="contato.html">Contato</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-		</header>
+<head>
+	<meta charset="UTF-8">
+	<title>Contato,</title>
 
-		<main>
-			<h1>Contato</h1>
-			<form>
-				<label for="nomesobrenome">Nome e sobrenome</label>
-				<input type="text" id="nomesobrenome" class="input-padrao" required>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="contato.css">
+</head>
 
-				<label for="email">Email</label>
-				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+<body>
 
-				<label for="telefone">Telefone</label>
-				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+	<header class="header-container">
 
-				<label for="mensagem">Mensagem</label>
-				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+		<div class="caixa">
+			<img class="logo" src="./img/logo_emily.png">
 
-				<fieldset>
-					<legend>Como prefere o nosso contato?</legend>
-					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-					
-					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
-					
-					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
-				</fieldset>
+		</div>
+		<div class="header2">
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="https://github.com/emilyasx/" class="header__intro__links__link"
+							target="_blank">Github</a>
+					</li>
+					<li>
+						<a href="tps://www.linkedin.com/in/emily-carvalho-2aa57018b/" class="header__intro__links__link"
+							target="_blank">Linkedin </a>
+					</li>
+					<li>
+						<a href="./img/Emily Yasmin (1) 1.pdf" class="header__intro__links__link"
+							target="_blank">Curriculo</a>
+					</li>
 
-				<fieldset>
-					<legend>Qual horário prefere ser atendido?</legend>
-					<select>
-						<option>Manhã</option>
-						<option>Tarde</option>
-						<option>Noite</option>
-					</select>
-				</fieldset>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
 
-				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+					<li>
+						<a href="projetos.html">projetos</a>
+					</li>
+					<li>
+						<a href="contato.html">Contato</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-				<input type="submit" value="Enviar formulário" class="enviar">
-			</form>
-		</main>
+	<main>
+		<h1>Contato</h1>
+		<form>
+			<label for="nomesobrenome">Nome e sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao" required>
 
-		<footer class="footer">
-			<p>© 2022 - by Emily Yasmin<br></p>
-			<a href="https://github.com/emilyasx/">
-				<img src="./img/github.png" width="50px" height="50px">
-			</a>
-			<a href="tps://www.linkedin.com/in/emily-carvalho-2aa57018b/">
-				<img src="./img/linkedinn.png" width="50px" height="50px">
-			</a>
-	</body>
+			<label for="email">Email</label>
+			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+			<fieldset>
+				<legend>Como prefere o nosso contato?</legend>
+				<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+					Email</label>
+
+				<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+					Telefone</label>
+
+				<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+						checked> WhatsApp</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Qual horário prefere ser atendido?</legend>
+				<select>
+					<option>Manhã</option>
+					<option>Tarde</option>
+					<option>Noite</option>
+				</select>
+			</fieldset>
+
+			<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+				email?</label>
+
+			<input type="submit" value="Enviar formulário" class="enviar">
+		</form>
+	</main>
+
+	<footer class="footer">
+		<p>© 2022 - by Emily Yasmin<br></p>
+		<a href="https://github.com/emilyasx/">
+			<img src="./img/github.png" width="50px" height="50px">
+		</a>
+		<a href="tps://www.linkedin.com/in/emily-carvalho-2aa57018b/">
+			<img src="./img/linkedinn.png" width="50px" height="50px">
+		</a>
+</body>
+
 </html>
